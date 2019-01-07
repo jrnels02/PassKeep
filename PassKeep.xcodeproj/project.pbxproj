@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		EFD5178221E324B300592849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5178121E324B300592849 /* AppDelegate.swift */; };
-		EFD5178421E324B300592849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5178321E324B300592849 /* ViewController.swift */; };
+		EFD5178421E324B300592849 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5178321E324B300592849 /* TodoListViewController.swift */; };
 		EFD5178721E324B300592849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD5178521E324B300592849 /* Main.storyboard */; };
 		EFD5178A21E324B300592849 /* PassKeep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFD5178821E324B300592849 /* PassKeep.xcdatamodeld */; };
 		EFD5178C21E324B300592849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD5178B21E324B300592849 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		EFD5177E21E324B300592849 /* PassKeep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassKeep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD5178121E324B300592849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFD5178321E324B300592849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFD5178321E324B300592849 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		EFD5178621E324B300592849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFD5178921E324B300592849 /* PassKeep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassKeep.xcdatamodel; sourceTree = "<group>"; };
 		EFD5178B21E324B300592849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EFD5178121E324B300592849 /* AppDelegate.swift */,
-				EFD5178321E324B300592849 /* ViewController.swift */,
+				EFD5178321E324B300592849 /* TodoListViewController.swift */,
 				EFD5178521E324B300592849 /* Main.storyboard */,
 				EFD5178B21E324B300592849 /* Assets.xcassets */,
 				EFD5178D21E324B300592849 /* LaunchScreen.storyboard */,
@@ -208,7 +208,7 @@
 				};
 			};
 			buildConfigurationList = EFD5177921E324B300592849 /* Build configuration list for PBXProject "PassKeep" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD5178421E324B300592849 /* ViewController.swift in Sources */,
+				EFD5178421E324B300592849 /* TodoListViewController.swift in Sources */,
 				EFD5178221E324B300592849 /* AppDelegate.swift in Sources */,
 				EFD5178A21E324B300592849 /* PassKeep.xcdatamodeld in Sources */,
 			);
